@@ -2,6 +2,10 @@ const responseBody = require("./responseBody");
 const responseCode = require("./responseCode");
 
 const responseHandler = (req, res, next) => {
+  /**
+   * test commit
+   * @param {*} data 
+   */
   res.success = (data) => {
     res.status(responseCode.success).json(responseBody.success(data));
   };
