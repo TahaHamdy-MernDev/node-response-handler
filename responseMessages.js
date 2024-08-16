@@ -10,3 +10,4 @@ const responseMessages = {
     "You do not have the necessary permissions to access this resource.",
   conflict: `The request could not be completed due to a conflict with the current state.`,
 };
+module.exports = responseMessages;

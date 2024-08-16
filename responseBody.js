@@ -1,4 +1,5 @@
 const responseCode = require("./responseCode");
+const responseMessages = require("./responseMessages");
 const responseStatus = require("./responseStatus");
 
 const responseData = (data) => (data && Object.keys(data).length ? data : null);
