@@ -3,7 +3,7 @@ const responseCode = {
   badRequest: 400,
   internalServerError: 500,
   recordNotFound: 404,
-  unAuthorized: 401,
+  unauthorized: 401,
   validationError: 422,
   conflict: 409,
   forbidden: 403,

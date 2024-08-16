@@ -35,9 +35,9 @@ const responseBody = {
     errors: data.errors || {},
     data: responseData(data.data),
   }),
-  unAuthorized: (data = {}) => ({
+  unauthorized: (data = {}) => ({
     status: responseStatus.unauthorized,
-    code: responseCode.unAuthorized,
+    code: responseCode.unauthorized,
     message: data.message || responseMessages.unauthorized,
     data: responseData(data.data),
   }),

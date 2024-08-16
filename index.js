@@ -26,8 +26,8 @@ const responseHandler = (req, res, next) => {
       .status(responseCode.validationError)
       .json(responseBody.validationError(data));
   };
-  res.unAuthorized = (data) => {
-    res.status(responseCode.unAuthorized).json(responseBody.unAuthorized(data));
+  res.unauthorized = (data) => {
+    res.status(responseCode.unauthorized).json(responseBody.unauthorized(data));
   };
   res.forbidden = (data) => {
     res.status(responseCode.forbidden).json(responseBody.forbidden(data));
