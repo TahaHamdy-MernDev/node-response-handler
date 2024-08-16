@@ -1,6 +1,6 @@
 {
   "name": "node-response-handler",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A lightweight Express middleware for handling standardized API responses, including success, error, validation, and more, with customizable messages and status codes.",
   "main": "index.js",
   "types": "types/node-response-handler.d.ts",
