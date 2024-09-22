@@ -69,7 +69,7 @@ app.get('/api/users/:id', (req, res) => {
 - `res.recordNotFound(data)`
 - `res.conflict(data)`
 - `res.validationError(data)`
-- `res.unAuthorized(data)`
+- `res.unauthorized(data)`
 - `res.forbidden(data)`
 
 Each method accepts an optional `data` object which can include:
